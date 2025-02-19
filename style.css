@@ -1,0 +1,455 @@
+bodyf{
+    margin: 0;
+    padding: 0;
+}
+.header-container-full{
+    width: 100%;
+    height: 100px;
+    background-color: bisque;
+}
+.header-container-full .logo{
+    width: 20%;
+    height: 100%;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-container-full .menu{
+    width: 60%;
+    height: 100%;
+    float: left;
+}
+.header-container-full .icon{
+    width: 20%;
+    height: 100%;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-container-full .icon .fa-heart{
+    margin-right: 20px;
+}
+.menu ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.menu ul li{
+    float: right;
+}
+.menu ul li a{
+    display: block;
+    padding: 30px 32px;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.homepage-container{
+    width: 100%;
+    overflow: hide;
+    /* min-height: 100vh; */
+    /* background-color: black; */
+}
+.Shopping-tool{
+    width: 100%;
+    height: 200px;
+    margin-top: 50px;
+    /* background-color: violet; */
+}
+.Shopping-tool .container{
+    width: 50%;
+    height: 100%;
+    margin: auto;
+    /* background-color: green; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.Shopping-tool .container .title{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:30px ;
+}
+.Shopping-tool .container .tool-item{
+    width: 19.5%;
+    height: 70%;
+    /* background-color: black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+.Shopping-tool .container .tool-item .fa-car,a{
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
+hr{
+    width: 90%;
+    transform: translateX(120px);
+}
+.vihecle-container{
+    width: 90%;
+    overflow: hidden;
+    /* height: 200px; */
+    /* background-color: black; */
+    margin:50px auto;
+}
+.vihecle-container .title{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-weight: 600;
+}
+.car-model{
+    width: 100%;
+    height: 450px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.brand-car{
+    width: 33%;
+    height: 100%;
+    /* background-color: green; */
+}
+.brand-car .image{
+    width: 100%;
+    height: 60%;
+    background-color: red;
+    overflow: hidden;
+}
+.brand-car .image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 0.5s;
+}
+.brand-car .description{
+    width: 100%;
+    height:40%;
+    /* background-color: blue; */
+}
+.brand-car .description p{
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+}
+.brand-car .description .btn-lern-more{
+    width: 150px;
+    height: 50px;
+    border: 2px solid black;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateX(150px);
+    font-weight: bolder;
+}
+.brand-car .image img:hover{
+    transform: scale(110%,110%);
+    cursor: pointer;
+}
+
+.brand-car .description .btn-lern-more:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.explore-container{
+    width: 100%;
+    margin-top: 50px;
+    height: 300px;
+    /* background-color: green; */
+}
+.explore-container .Title{
+    width: 100%;
+    height: 20%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+
+.explore-container .menu{
+    width: 100%;
+    height: 15%;
+    /* background-color: red; */
+}
+.explore-container .menu ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.explore-container .menu ul li{
+  
+}
+.explore-container .menu ul li a{
+    display: block;
+    padding: 10px 20px;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+}
+.explore-container .car-model{
+    width: 100%;
+    height: 65%;
+    /* background-color: yellow; */
+}
+.explore-container .car-model .Car{
+    width: 10%;
+    height: 100%;
+
+}
+
+.explore-container .car-model .Car img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+
+}
+
+.Car-review{
+    width: 100%;
+    height: 400px;
+    background-image: url('img/videoframe_7142.png');
+    background-position: center;
+    background-size: cover;
+}
+
+.Car-review .Car-Name{
+    width: 50%;
+    height: 100%;
+    float: left;
+    /* background-color: yellow; */
+}
+.Car-review .car-pic{
+    width: 50%;
+    float: left;
+    height: 100%;
+    /* background-color: blue; */
+}
+.Car-review .car-pic img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: translateY(30px);
+}
+.Car-Name .title{
+    width: 100px;
+    height: 100px;
+    /* background-color: yellow; */
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 50px;
+    margin-top: 100px;
+    text-decoration: underline;
+    color: white;
+}
+.Car-Name .btn-lern-more{
+    width: 150px;
+    height: 50px;
+    border: 2px solid black;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateX(50px);
+    font-weight: bolder; 
+    float: left;
+    margin-right: 10px;
+}
+
+.LX-700h-container{
+    width: 100%;
+    overflow: hidden;
+    margin-top: 70px;
+}
+.LX-700h-container .sub-title{
+    width: 100%;
+    height: 100px;
+    /* background-color: green; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.LX-700h-container .sub-title h4,p{
+    text-align: center;
+    font-size: 23px;
+}
+.LX-700h-container .image-fo-vehicle{
+    width: 100%;
+    height: 400px;
+}
+
+.LX-700h-container .image-fo-vehicle .picture{
+    width: 100%;
+    height: 80%;
+}
+.LX-700h-container .image-fo-vehicle .picture img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.LX-700h-container .image-fo-vehicle .btn{
+    width: 100%;
+    height: 20%;
+}
+.LX-700h-container .image-fo-vehicle .btn .btn-lern-more{
+    width: 200px;
+    height: 50px;
+    border: 2px solid black;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    font-weight: bolder;
+}
+
+.LX-700h-container .image-fo-vehicle .btn .btn-lern-more:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.future-LIMITED-container{
+    width: 100%;
+    overflow: hidden;
+    
+}
+.future-LIMITED-container 
+.subtitle{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.future-LIMITED-container
+.Limited-car{
+    width: 100%;
+    height: 500px;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.future-LIMITED-container
+.Limited-car .VEHICLES-EDITION{
+    width: 33%;
+    height: 100%;
+    background-color: yellow;
+    overflow: hidden;
+    position: relative;
+}
+
+.future-LIMITED-container
+.Limited-car .VEHICLES-EDITION img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 0.5s;
+
+}
+.future-LIMITED-container
+.Limited-car .VEHICLES-EDITION img:hover{
+    transform: scale(110%,110%);
+    cursor: pointer;
+}
+
+.future-LIMITED-container
+.Limited-car .VEHICLES-EDITION:nth-child(2) .top{
+    width: 100%;
+    height: 50%;
+    background-color: green;
+    overflow: hidden;
+    position: relative;
+}
+.future-LIMITED-container
+.Limited-car .VEHICLES-EDITION:nth-child(2) .bottom{
+    width: 100%;
+    height: 50%;
+    background-color: blue;
+    overflow: hidden;
+}
+
+.future-LIMITED-container
+.Limited-car .VEHICLES-EDITION .box-subtitle{
+    width: 100%;
+    height: 120px;
+    /* background-color: black; */
+    position: absolute;
+    z-index: 1;
+    bottom: 0;
+}
+
+.future-LIMITED-container
+.Limited-car .VEHICLES-EDITION .box-subtitle h4
+{
+    text-align: center;
+    color: white;
+}
+
+.future-LIMITED-container
+.Limited-car .VEHICLES-EDITION .box-subtitle 
+.btn-lern-more{
+    width: 150px;
+    height: 50px;
+    border: 2px solid black;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    font-weight: bolder;
+}
+
+.future-LIMITED-container
+.Limited-car .VEHICLES-EDITION:hover .box-subtitle .btn-lern-more{
+    background-color: transparent;
+    border-color: white;
+    color: white;
+}
+
+.future-LIMITED-container
+.Limited-car .VEHICLES-EDITION:nth-child(2) .top 
+.box-subtitle{
+    width: 100%;
+    height: 120px;
+    /* background-color: black; */
+    position: absolute;
+    z-index: 1;
+    bottom: 0;
+}
+
+.future-LIMITED-container
+.Limited-car .VEHICLES-EDITION:nth-child(2) .top:hover .box-subtitle .btn-lern-more{
+    background-color: transparent;
+    border-color: white;
+    color: white;
+}
